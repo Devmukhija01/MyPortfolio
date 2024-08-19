@@ -1,0 +1,65 @@
+/* General form styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center; /* Center align form contents */
+}
+
+h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #17a589;
+  outline: none;
+}
+
+button {
+  background-color: #17a589;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 12px; /* Add margin-top for spacing */
+}
+
+button:hover {
+  background-color: #17a589;
+}
+
+button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.ValidationError {
+  color: #ff4d4d;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
