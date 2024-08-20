@@ -1,24 +1,24 @@
-// src/components/SkillsSection.js
-
 import React from 'react';
 import './SkillsSection.css'; // Ensure this CSS file is created
+import { FaJsSquare, FaReact, FaCss3Alt, FaJava, FaDatabase } from 'react-icons/fa';
+import { SiSpring } from 'react-icons/si';
 
 const skillsData = [
-  { skill: 'JavaScript', description: 'Experienced in building interactive web applications.', icon: 'path/to/js-icon.png' },
-  { skill: 'React', description: 'Skilled in creating dynamic user interfaces with React.', icon: 'path/to/react-icon.png' },
-  { skill: 'CSS', description: 'Proficient in styling and designing responsive layouts.', icon: 'path/to/css-icon.png' },
-  { skill: 'HTML', description: 'Strong foundation in semantic HTML and web standards.', icon: 'path/to/html-icon.png' },
-  { skill: 'Node.js', description: 'Capable of developing server-side applications with Node.js.', icon: 'path/to/nodejs-icon.png' },
-  { skill: 'Python', description: 'Familiar with Python for scripting and automation tasks.', icon: 'path/to/python-icon.png' },
+  { skill: 'JavaScript', description: 'Experienced in building interactive web applications.', icon: <FaJsSquare /> },
+  { skill: 'React', description: 'Skilled in creating dynamic user interfaces with React.', icon: <FaReact /> },
+  { skill: 'CSS', description: 'Proficient in styling and designing responsive layouts.', icon: <FaCss3Alt /> },
+  { skill: 'Java', description: 'Strong foundation in Java for backend and frontend development.', icon: <FaJava /> },
+  { skill: 'MySQL', description: 'Experienced in managing and querying relational databases.', icon: <FaDatabase /> },
+  { skill: 'Spring', description: 'Proficient in building robust backend systems with Spring Framework.', icon: <SiSpring /> },
 ];
 
 const SkillCard = ({ skill, description, icon }) => (
   <div className="skill-card">
-    <img src={icon} alt={`${skill} icon`} className="skill-icon" />
+    <div className="skill-icon">{icon}</div>
     <h3>{skill}</h3>
     <p>{description}</p>
     <div className="skill-hover">
-      <p>Click to learn more</p>
+
     </div>
   </div>
 );

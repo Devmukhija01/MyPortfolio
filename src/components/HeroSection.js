@@ -7,8 +7,8 @@ const HeroSection = () => {
   return (
     <section className="hero">
       <div className="details">
-        <h1>Hello, I'm Dev Mukhija</h1>
-        <p>I'm a FrontEnd Developer. Welcome to my portfolio where you can find my projects, skills, and more.</p>
+        <h1>Hello</h1>
+        <p>I’m Dev Mukhija, a Front-End Developer skilled in creating engaging and user-friendly web experiences. I specialize in JavaScript, React, CSS, and Java, and have experience with MySQL and Spring.</p>
       </div>
       <div className="photo">
         <img src={myPhoto} alt="My Photo" />

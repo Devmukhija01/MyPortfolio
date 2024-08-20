@@ -1,6 +1,6 @@
 /* src/components/EducationSection.css */
 .education {
-    background-color: #f0f4f8;
+    /* background-color: #f0f4f8; */
     padding: 50px 20px;
   }
   
@@ -18,7 +18,7 @@
   }
   
   .education-card {
-    background: #ffffff;
+    /* background: #ffffff; */
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;

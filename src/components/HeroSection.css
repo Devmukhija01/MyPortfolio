@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background: #f0f4f8;
+    background-color: #f9f9f9;
     padding: 50px 20px;
     min-height: 50vh; /* Full viewport height */
   }
