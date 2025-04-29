@@ -1,16 +1,15 @@
-/* src/components/Header.css */
 .header {
-    background: #1abc9c; /* Solid color background */
+    background: #1abc9c;
     color: #ffffff;
-    padding: 10px 0; /* Reduced padding for a smaller header */
+    padding: 10px 0;
     text-align: center;
   }
   
   .header h1 {
     background: #1abc9c;
-    font-size: 1.5rem; /* Smaller font size */
+    font-size: 1.5rem;
     margin: 0;
     color: #ffffff;
-    font-weight: 600; /* Slightly bold for emphasis */
+    font-weight: 600; 
   }
   

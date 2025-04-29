@@ -1,17 +1,20 @@
-// src/components/HeroSection.js
 import React from 'react';
-import './HeroSection.css';
-import myPhoto from './profile.jpg'; // Replace with your photo path
+import './HeroSection.css';  // Ensure this CSS file contains the updated styles
+import myPhoto from './profile.jpg';  // Your profile image
 
 const HeroSection = () => {
   return (
     <section className="hero">
       <div className="details">
-        <h1>Hello</h1>
-        <p>I’m Dev Mukhija, a Front-End Developer skilled in creating engaging and user-friendly web experiences. I specialize in JavaScript, React, CSS, and Java, and have experience with MySQL and Spring.</p>
+        <h1>Hello, I'm Dev Mukhija</h1>
+        <p>
+          I'm a passionate Front-End Developer with expertise in creating engaging, user-friendly web experiences. 
+          I specialize in <strong>JavaScript, React, CSS</strong>, and <strong>Java</strong>, with hands-on experience 
+          working with <strong>MySQL</strong> and <strong>Spring Framework</strong>.
+        </p>
       </div>
       <div className="photo">
-        <img src={myPhoto} alt="My Photo" />
+        <img src={myPhoto} alt="Dev Mukhija" />
       </div>
     </section>
   );

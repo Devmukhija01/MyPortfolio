@@ -4,6 +4,13 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
+      company: 'Concret.Io',
+      role: 'Salesforce Developer',
+      duration: 'Jan 2025 - Mar 2025',
+      description: 'Gained hands-on experience in Salesforce Development or API Integration',
+      certificateLink: 'https://github.com/Devmukhija01/Certificates/blob/main/Salesforce%20Developer%20Training.pdf',
+    },
+    {
       company: 'Celebal Technologies',
       role: 'ReactJS Developer',
       duration: 'Jun 2024 - Aug 2024',
@@ -17,7 +24,6 @@ const Experience = () => {
       description: 'Developed REST APIs using Node.js and Express.',
       certificateLink: 'https://github.com/Devmukhija01/Certificates/blob/main/CipherBytes.pdf',
     },
-    // Add more experiences as needed
   ];
 
   return (
@@ -26,7 +32,7 @@ const Experience = () => {
       <div className="experience-list">
         {experiences.map((exp, index) => (
           <div key={index} className="experience-item">
-            <h3 className="experience-role">{exp.role}</h3>
+            <h3 className="experience-role">💼 {exp.role}</h3>
             <p className="experience-company">{exp.company}</p>
             <p className="experience-duration">{exp.duration}</p>
             <p className="experience-description">{exp.description}</p>

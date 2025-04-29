@@ -1,4 +1,3 @@
-// SocialMediaLinks.js
 import React from 'react';
 import './SocialMediaLinks.css';
 

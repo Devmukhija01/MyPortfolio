@@ -1,4 +1,3 @@
-// src/components/EducationSection.js
 import React from 'react';
 import { FaUniversity, FaSchool } from 'react-icons/fa';
 
@@ -18,7 +17,6 @@ const EducationSection = () => {
       date: '2020 - 2021',
       icon: <FaSchool />,
     },
-    // Add more items as needed
   ];
 
   return (

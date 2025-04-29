@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import './ContactSection.css'; // Import the CSS file
+import './ContactSection.css';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xyzgdwev");
@@ -12,7 +12,7 @@ function ContactForm() {
       <h3>Contact Me</h3>
       <input
         id="name"
-        type="text" // Corrected type
+        type="text" 
         name="name"
         placeholder='Name'
       />
@@ -20,7 +20,7 @@ function ContactForm() {
         prefix="Name" 
         field="name"
         errors={state.errors}
-        className="ValidationError" // Ensure ValidationError has styling
+        className="ValidationError"
       />
       <input
         id="email"
@@ -36,7 +36,7 @@ function ContactForm() {
       />
       <input
         id="contact"
-        type="tel" // Corrected type
+        type="tel"
         name="contact"
         placeholder='Contact NO.'
       />

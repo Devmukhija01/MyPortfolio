@@ -26,6 +26,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    text-align: center; /* Center all content inside */
 }
 
 .experience-item:hover {
@@ -44,12 +45,14 @@
     font-size: 1.2rem;
     color: #555;
     margin: 0.5rem 0;
+    text-align: center; /* Center text */
 }
 
 .experience-duration {
     font-size: 1rem;
     color: #777;
     margin: 0;
+    text-align: center; /* Center text */
 }
 
 .experience-description {
@@ -59,21 +62,21 @@
     line-height: 1.5;
 }
 
-/* View Certificate Button Styling */
 .view-certificate-btn {
     display: inline-block;
     margin-top: 1rem;
     padding: 10px 20px;
-    background-color: #17a589; /* Green background */
-    color: #fff; /* White font color */
+    background-color: #17a589;
+    color: #fff; 
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
 }
 
 .view-certificate-btn:hover {
-    background-color: #17a589; /* Darker green on hover */
+    background-color: #17a589;
     transform: translateY(-3px);
-    color:#fff;
+    color: #fff;
 }
