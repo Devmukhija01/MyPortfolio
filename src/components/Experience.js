@@ -4,6 +4,13 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
+      company:'Kugelblitz',
+      role:'ReactJS Developer',
+      duration:'May 2025 - Present',
+      description:'',
+      certificateLink:''
+    },
+    {
       company: 'Concret.io',
       role: 'Salesforce Developer',
       duration: 'Jan 2025 - Mar 2025',
@@ -17,13 +24,13 @@ const Experience = () => {
       description: 'Worked on developing user interfaces using React.js and Redux.',
       certificateLink: 'https://github.com/Devmukhija01/Certificates/blob/main/Celebal.pdf',
     },
-    {
-      company: 'CipherBytes Technologies',
-      role: 'Java Developer',
-      duration: 'May 2024 - Jun 2024',
-      description: 'Developed REST APIs using Node.js and Express.',
-      certificateLink: 'https://github.com/Devmukhija01/Certificates/blob/main/CipherBytes.pdf',
-    },
+    // {
+    //   company: 'CipherBytes Technologies',
+    //   role: 'Java Developer',
+    //   duration: 'May 2024 - Jun 2024',
+    //   description: 'Developed REST APIs using Node.js and Express.',
+    //   certificateLink: 'https://github.com/Devmukhija01/Certificates/blob/main/CipherBytes.pdf',
+    // },
   ];
 
   return (
