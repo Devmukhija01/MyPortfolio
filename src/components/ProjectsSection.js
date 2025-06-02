@@ -14,7 +14,7 @@ const ProjectsSection = () => {
       link: 'https://github.com/yourprofile/portfolio-website',
     },
     {
-        title: 'Chatting Application',
+        title: 'Chat Application',
         description: 'It is a chatting Application built by using Java and Socket Programming.',
         link: 'https://github.com/Devmukhija01/Chatting-Application.git',
       },

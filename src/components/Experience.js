@@ -4,7 +4,7 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      company: 'Concret.Io',
+      company: 'Concret.io',
       role: 'Salesforce Developer',
       duration: 'Jan 2025 - Mar 2025',
       description: 'Gained hands-on experience in Salesforce Development or API Integration',
