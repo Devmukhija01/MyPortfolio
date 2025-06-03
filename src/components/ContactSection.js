@@ -8,7 +8,8 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <section id='contact'>
+      <form onSubmit={handleSubmit}>
       <h3>Contact Me</h3>
       <input
         id="name"
@@ -61,6 +62,8 @@ function ContactForm() {
         Submit
       </button>
     </form>
+    </section>
+
   );
 }
 

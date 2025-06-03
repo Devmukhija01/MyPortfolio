@@ -29,3 +29,82 @@ a {
 a:hover {
   color: #16a085;
 }
+/* Dark Mode */
+.dark-mode {
+  background: linear-gradient(to bottom, #222, #444);
+  color: #ffffff;
+}
+
+.dark-mode input, .dark-mode button {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .weather-info {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dark-mode .forecast-day {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Theme Toggle Switch */
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.theme-toggle button {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: #00509e;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle button:hover {
+  background-color: #003e7e;
+}
+
+#checkboxInput {
+  display: none;
+}
+
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 30px;
+  background-color: #444;
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+
+.toggleSwitch::after {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  left: 5px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition-duration: .2s;
+  box-shadow: 5px 2px 7px rgba(8, 8, 8, 0.26);
+  border: 5px solid white;
+}
+
+#checkboxInput:checked + .toggleSwitch::after {
+  transform: translateX(100%);
+  background-color: white;
+}
+
+#checkboxInput:checked + .toggleSwitch {
+  background-color: #ccc;
+}

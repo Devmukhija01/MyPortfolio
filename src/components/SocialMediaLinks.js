@@ -3,7 +3,8 @@ import './SocialMediaLinks.css';
 
 const SocialMediaLinks = () => {
   return (
-    <ul className="example-2">
+    <section id='socialmedia'>
+       <ul className="example-2">
       <li className="icon-content">
         <a
           href="https://www.linkedin.com/in/dev-mukhija-64553a250/"
@@ -74,6 +75,7 @@ const SocialMediaLinks = () => {
         <div className="tooltip">Instagram</div>
       </li>
     </ul>
+    </section>
   );
 };
 

@@ -43,7 +43,7 @@ const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState('Frontend');
 
   return (
-    <section className="skills">
+    <section className="skills" id='skills'>
       <div className="container">
         <h2>My Skills</h2>
 

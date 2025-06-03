@@ -4,7 +4,7 @@ import myPhoto from './profile.jpg';  // Your profile image
 
 const HeroSection = () => {
   return (
-    <section className="hero">
+    <section className="hero" id='about'>
       <div className="details">
         <h1>Hello, I'm Dev Mukhija</h1>
         <p>

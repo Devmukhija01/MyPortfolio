@@ -9,10 +9,15 @@ import SocialMediaLinks from './components/SocialMediaLinks';
 import Experience from './components/Experience';
 
 import './App.css';
-
+import Chatbot from './components/Chatbot';
+import VoiceControl from './components/VoiceControl';
+// import {useState} from 'react'
+// import ThemeToggle from './ThemeToggle';
 const App = () => {
   return (
     <div className="App">
+      {/* <ThemeToggle/> */}
+      <VoiceControl/>
       <Header />
       <HeroSection />
       <SkillsSection />
@@ -21,6 +26,7 @@ const App = () => {
       <EducationSection />
       <ContactSection />
       <SocialMediaLinks />
+      <Chatbot/>
     </div>
   );
 };
